@@ -1,5 +1,5 @@
 {
-  "name": "rtn-turbo-geocode",
+  "name": "@brandensmith_/rtn-turbo-geocode",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -41,7 +41,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/brandenesmith/rtn-turbo-geocode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandenesmith/rtn-turbo-geocode"
+  },
   "author": "Branden Smith <smith.brandene@gmail.com> (https://github.com/brandenesmith)",
   "license": "MIT",
   "bugs": {

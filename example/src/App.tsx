@@ -4,7 +4,7 @@ import { StyleSheet, View, Text, Button } from 'react-native';
 import {
   getAddressFromGeopoint,
   getCoordinateFromAddressString,
-} from 'rtn-turbo-geocode';
+} from '@brandensmith_/rtn-turbo-geocode';
 
 export default function App() {
   const [currentAddress, setAddress] = React.useState<string>('none');
